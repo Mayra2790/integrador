@@ -1,0 +1,178 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+   background: #353A40;
+   display: inline-block;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   z-index: 10;
+}
+
+.logo {
+   display: inherit;
+}
+
+.logo img {
+   height: 75px;
+   vertical-align: middle;
+   margin-left: 10px;
+}
+
+h2 {
+   color: white;
+   display: inline-block;
+}
+
+nav {
+   display: inline-block;
+   float: right;
+   padding: 25px;
+}
+
+a {
+   color: white;
+   text-decoration: none;
+   padding: 5px;
+}
+
+body{
+   margin: 0;
+   display: grid;
+   min-height: 100vh;
+   grid-template-rows: auto lfr auto;
+   position: relative;
+   padding-bottom: 3em;
+}
+
+.container2{
+   position: relative;
+   display: inline-block;
+   text-align: center;
+}
+
+h1{
+   
+}
+
+.row{
+   position: relative;
+   right: inherit;
+   width: 50%;
+   display: inline-flex;
+}
+
+.botton-comprar {
+   color: green;
+}
+
+div[class^='col-3']{
+   width: 150px;
+   height: 150px;
+   margin: 25px 50;
+   color: black;
+   display: inline-block;
+}
+
+section {
+   height: 100vh;
+   position: relative;
+}
+
+section > img {
+   height: 100%;
+   width: 100%;
+}
+
+.honolulu{
+   background-color: white;
+   display: inline-flex;
+   flex-direction: row;
+}
+
+.col-6 img {
+   height: 50%;
+}
+
+.col-6 p {
+   background-color: #353A40;
+   height: 50%;
+   color: white;
+}
+
+.container-conferencia {
+   width: 50%;
+   position: absolute;
+   top: 50%;
+   right: 30px;
+   text-align: right;
+   color: white;
+}
+.first-paragraph{
+   padding: 10px;
+}
+
+.enlace-1 {
+   padding: 10px;
+   border: 2px solid white;
+   border-radius: 5px;
+}
+
+.enlace-2 {
+   padding: 10px;
+   border-radius: 5px;
+   background-color: green;
+}
+
+h3,
+h4 {
+   text-align: center;
+}
+
+.card {
+   position: absolute;
+   top: 20%;
+   right: 10%;
+   width: 200px;
+   display: inline-block;
+   padding: 20px;
+}
+
+.card .p{
+   display: flex;
+   text-align: center;
+   width: 50%;
+   opacity: 0;
+}
+
+.card img {
+   width: 100%;
+}
+
+
+.row .cardf{
+   width: 60%;
+   display: flex;
+   flex-direction: row;
+}
+
+#lugar {
+   display: flex;
+}
+
+#lugar img {
+   width: 50%;
+   height: 50%;
+}
+
+footer{
+   background-color: rgb(11, 46, 3);
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
